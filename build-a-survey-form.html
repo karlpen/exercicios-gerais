@@ -1,0 +1,37 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Título</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+<h1 id="title">Survey Form</h1>
+  <p id="description">
+    This is a survey.
+  </p>
+<form id="survey-form">
+  <fieldset>
+    <label for="name">Name:   <input id="name" type="text" placeholder="Enter your name here" required />
+    <label id="name-label">Name of participant</label>
+    <label for="email">Email: <input id="email" type="email" placeholder="Enter your email here" required />
+    <label id="email-label">Your best email</label>
+    <label for="number">Number: <input id="number" type="number" min="0" max="99" placeholder="0-9"/>
+    <label id="number-label">Number of preference</label>
+    
+    <label for="contact">How to contact you?    
+      <select id="dropdown">
+      <option value="number">Number</option>
+      <option value="email">Email</option>
+    </label>
+
+    <label for "opcao"><input type="radio" name="opcao" value="Discreto"> Discreto </label>
+    <label> <input type="radio" name="opcao" value="Anonimo"> Anonimo</label>
+    <label><input type="checkbox" value="vai uma"> Vai uma</label>
+    <label><input type="checkbox" value="vai duas"> Vai duas</label>
+    <label>Escreva o que quiser <textarea> </textarea></label>
+    <label><input id="submit" type="submit"> Submete o formulário</label>
+</form>
+    
